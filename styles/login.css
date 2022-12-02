@@ -1,0 +1,61 @@
+*{
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+.nav{
+    width: 99%;
+    height: 50px;
+    border: 2px solid black;
+    margin: auto;
+    display: flex;
+    /* align-items: flex-start; */
+    justify-content: flex-end;
+    margin-bottom: 20px;
+    
+    
+}
+.subnav{
+    /* border: 2px solid red; */
+    width: 300px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 12px;
+}
+
+.subnav>h3>a{
+    text-decoration: none;
+    color: black;
+}
+.subnav>h3>a:hover{
+    
+    color: rgb(255, 59, 59);
+}
+
+/* header CSS ENDED HERE */
+
+#login-form-div{
+    height: 250px;
+    width: 250px;
+    /* border: 2px solid black; */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin: auto;
+    line-height: 40px;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+#login-form-div>form>input{
+    
+    border-right: 0px;
+    border-top: 0px;
+}
+#losubmit{
+    border: none;
+
+  
+    
+}
